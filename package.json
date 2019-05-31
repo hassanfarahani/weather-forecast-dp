@@ -1,0 +1,19 @@
+{
+  "name": "weather-forecast-deployment",
+  "version": "1.0.0",
+  "description": "getting app ready for deployment",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "weather-forecast-dp"
+  },
+  "author": "Hassan Farahani",
+  "license": "ISC",
+  "homepage": "https://hassanfarahani.github.io/weather-forecast-dp",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
